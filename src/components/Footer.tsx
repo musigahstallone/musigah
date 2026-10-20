@@ -3,7 +3,7 @@ import { portfolioData } from "@/data/portfolioData";
 
 export default function Footer() {
   const { profile } = portfolioData;
-  const currentYear = new Date().getFullYear();
+  const currentYear = 2026;
 
   return (
     <footer className="footer">
